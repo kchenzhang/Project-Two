@@ -58,9 +58,14 @@ h5{
   line-height: 1.776902559em; /* 42.635px / 23.994px = 1.776902559 */
   padding-bottom: 0.7085104609em; /* 17 / 23.994px = 0.7085104609 */
 }
+ul{
+  color: rgb(6, 74, 114);
+  margin-left: 0.6666666667em; /* 12px / 18px = 0.6666666667 */
+  list-style-type: disc;
+}
 
 img{
-  display: block;
+  display: flex;
   max-width: 100%;
   border: 0.05555555556em; /* 1px / 18px */
 }
