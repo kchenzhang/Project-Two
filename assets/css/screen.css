@@ -23,7 +23,7 @@ html {
   font-family: Georgia, sans-serif, "Crimson Text", "Hoefler Text", Georgia, "Times New Roman", Times;
   font-size: 1.125em;
   line-height: 1.2777777778em;
-  background-color: rgb(255, 223, 174);
+  background: url(../img/background.jpg) no-repeat;
   padding: 1.2777777778em;
 }
 h1 {
