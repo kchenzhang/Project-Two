@@ -27,26 +27,33 @@ html{
   padding: 1.2777777778em;
 }
 h1{
+  color: rgb(228, 58, 6);
   font-size: 4.2087222222em; /* 75.757px / 18px = 4.2087222222 */
+  font-weight: bold;
   line-height: 1.3329989308em; /* 100.984px / 75.757px = 1.3329989308 */
   padding-bottom: 0.2376018058em; /* 18 / 75.757px = 0.2376018058 */
 }
 h2{
+  color: rgb(228, 58, 6);
   font-size: 3.1573333333em; /* 56.832px / 18px = 3.1573333333 */
   line-height: 1.3329990146em; /* 75.757px / 56.832px = 1.3329990146 */
-  padding-bottom: 0.316722973em; /* 18 / 56.832px = 0.316722973 */
+  padding-top: 0.316722973em; /* 18 / 56.832px = 0.316722973 */
 }
 h3{
+  color: rgb(228, 58, 6);
   font-size: 2.3686111111em; /* 42.635px / 18px = 2.3686111111 */
   line-height: 1.332989328em; /* 56.832px / 42.635px = 1.332989328 */
   padding-bottom: 0.4221883429em; /* 18 / 42.635px = 0.4221883429 */
+  padding-top: 0.4221883429em; /* 18 / 42.635px = 0.4221883429 */
 }
 h4{
+  color: rgb(8, 155, 147);
   font-size: 1.7768888889em; /* 31.984px / 18px = 1.7768888889 */
   line-height: 1.3330102551em; /* 42.635px / 31.984px = 1.3330102551 */
   padding-bottom: 0.7085104609em; /* 18 / 31.984px = 0.5627813907 */
 }
 h5{
+  color: rgb(8, 155, 147);
   font-size: 1.333em; /* 23.994px / 18px = 1.333 */
   line-height: 1.776902559em; /* 42.635px / 23.994px = 1.776902559 */
   padding-bottom: 0.7085104609em; /* 17 / 23.994px = 0.7085104609 */
@@ -55,7 +62,7 @@ h5{
 img{
   display: block;
   max-width: 100%;
-  border: 1px;
+  border: 0.05555555556em; /* 1px / 18px */
 }
 @media screen and (min-width: 100px){
   h1{
