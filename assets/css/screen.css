@@ -59,7 +59,6 @@ h5 {
   padding-bottom: 0.7085104609em; /* 17 / 23.994px = 0.7085104609 */
 }
 ul {
-  margin-left: 0.6666666667em; /* 12px / 18px = 0.6666666667 */
   padding-bottom: 1.3333333333em;
   padding-top: 1.3333333333em;
 }
@@ -75,5 +74,10 @@ img {
   }
   content {
     font-size: 1.333em;
+    font-weight: normal;
+  }
+  ul {
+    width: 100%;
+    font-size: 1em;
   }
 }
