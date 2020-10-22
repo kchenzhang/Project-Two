@@ -23,8 +23,7 @@ html{
   font-family:Georgia, sans-serif, 'Crimson Text', 'Hoefler Text', Georgia, 'Times New Roman', Times;
   font-size: 1.1250em;
   line-height: 1.2777777778em;
-  background: #FAE2C1;
-  color: inherit;
+  background-color: rgb(255, 223, 174);
   padding: 1.2777777778em;
 }
 h1{
@@ -58,7 +57,7 @@ img{
   max-width: 100%;
   border: 1px;
 }
-@media screen and (max-width: 830px){
+@media screen and (min-width: 100px){
   h1{
     font-size: 1.333em;
   }
