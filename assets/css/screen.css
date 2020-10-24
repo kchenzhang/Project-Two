@@ -89,12 +89,12 @@ h2 {
 }
 h3 {
   color: rgb(155, 95, 27);
-  font-size: 1.493em; 
+  font-size: 1.493em;
   font-style: italic;
   font-weight: bold;
-  line-height: 1.222em; 
+  line-height: 1.222em;
   text-align: center;
-  padding-bottom: 0.611em; 
+  padding-bottom: 0.611em;
 }
 p {
   font-style: italic;
@@ -106,9 +106,9 @@ p {
 }
 h4 {
   color: rgb(87, 64, 1);
-  font-size: 0.7465em; 
+  font-size: 0.7465em;
   font-weight: bold;
-  line-height: 1.222em; 
+  line-height: 1.222em;
   text-align: center;
   margin-top: 0.6666666667em;
 }
@@ -118,20 +118,20 @@ section ol li {
   padding-top: 0.611em;
   width: 100%;
 }
-section ul li{
+section ul li {
   padding-top: 1.222em;
   text-align: center;
 }
 h5 {
   color: rgb(202, 86, 8);
-  font-size: 0.37325em; 
-  padding-bottom: 0; 
+  font-size: 0.37325em;
+  padding-bottom: 0;
   text-decoration: underline;
 }
 .tasks {
   margin-bottom: 0.6666666667em;
 }
-footer p{
+footer p {
   margin-top: 10%;
   font-size: 0.625em;
   font-weight: bold;
@@ -154,7 +154,7 @@ section figcaption {
     flex-flow: row nowrap;
   }
   .nav a {
-    display:block;
+    display: block;
     width: auto;
   }
   html {
@@ -199,6 +199,5 @@ section figcaption {
     font-size: 0.9444444444em;
     text-align: center;
     padding-top: 0.6666666667em;
-  } 
+  }
 }
-    
