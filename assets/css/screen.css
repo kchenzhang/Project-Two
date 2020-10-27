@@ -12,7 +12,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /*
 Typographic grid information:
--Common system font (Commissioner)
+-Common system font (Georgia)
 -Base font-size: 18px // 1.1250em
 -Base line-height: 23px // 1.2777777778em (23px ÷ 18px)
 -Modular scale: 3:4 // 1.333 (Perfect Fourth)
@@ -35,8 +35,8 @@ body {
 }
 h1 {
   color: rgb(4, 22, 58);
-  font-size: 1.5em;
-  line-height: 1.375em; /* 44px */
+  font-size: 1.5em; /* 27px / 18px */
+  line-height: 1.375em;
   font-weight: bold;
   text-align: center;
   padding-bottom: 0.6875em;
@@ -81,7 +81,7 @@ nav a:hover {
 }
 h2 {
   color: rgb(37, 37, 37) ;
-  font-size: 2.25em;
+  font-size: 0.75em;
   margin: 0.611em 0 0.611em 0;
   font-weight: bold;
   line-height: 1.222em;
@@ -89,7 +89,7 @@ h2 {
 }
 h3 {
   color: rgb(155, 95, 27);
-  font-size: 1.493em;
+  font-size: 0.7222222222em;
   font-style: italic;
   font-weight: bold;
   line-height: 1.222em;
@@ -124,7 +124,7 @@ section ul li {
 }
 h5 {
   color: rgb(202, 86, 8);
-  font-size: 0.37325em;
+  font-size: 0.6666666667em;
   padding-bottom: 0;
   text-decoration: underline;
 }
