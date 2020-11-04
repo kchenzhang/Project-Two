@@ -24,7 +24,7 @@ html {
   font-size: 1.125em;
   line-height: 1.2777777778em;
   background: url(../img/background.jpg) ;
-  padding: 1.2777777778em;
+  padding: 0.5555555556em;
 }
 body {
   margin: 0;
@@ -147,7 +147,7 @@ section figcaption {
     width: auto;
   }
   html {
-    padding: 1.222em;
+    padding: 0em;
     background-color: rgba(255, 255, 255, 0.5);;
   }
   h1, h2, h3, h4, h5 {
@@ -155,7 +155,8 @@ section figcaption {
     font-size: 1.333em;
   }
   body {
-    padding: 1.222em;
+    padding-right: 0;
+    padding-left: 0;
   }
   content {
     font-size: 1.333em;
@@ -186,7 +187,7 @@ section figcaption {
   }
   #contact {
     font-size: 0.9444444444em;
-    text-align: center;
     padding-top: 0.6666666667em;
+    padding-right: 0.5555555556em;
   }
 }
