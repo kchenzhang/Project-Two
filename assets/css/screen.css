@@ -25,7 +25,6 @@ html {
   line-height: 1.3333333333em; /* 24px / 18px = 1.3333333333em */
   background: url(../img/background.jpg) ;
   padding: 1.2777777778em; /* 23px / 18px */
-  overflow-x: scroll;
 }
 body {
   font-style: normal;
@@ -112,6 +111,9 @@ h5 {
   font-size: 1em; /* 18px / 18px */
   padding-bottom: 0;
   text-decoration: underline;
+}
+#awards {
+  overflow: scroll;
 }
 .tasks {
   margin-bottom: 0.6666666667em; /* 12px / 18px */
